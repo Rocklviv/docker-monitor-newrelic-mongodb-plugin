@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker inspect newrelic-pivotal-plugin 
+docker inspect newrelic-mongodb-plugin 

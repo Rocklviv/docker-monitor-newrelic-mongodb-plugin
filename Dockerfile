@@ -2,11 +2,11 @@ FROM ruby:2.2
 
 MAINTAINER Ron Kurr <kurr@jvmguy.com>
 
-COPY newrelic_pivotal_agent-pivotal_agent-1.0.5 /opt/example
+COPY newrelic_mongodb_agent-2.4.6 /opt/example
 
 WORKDIR /opt/example
 
 RUN ["bundle","install"]
 
-ENTRYPOINT ["./pivotal_agent"]
+ENTRYPOINT ["./newrelic_mongodb_agent"]
 

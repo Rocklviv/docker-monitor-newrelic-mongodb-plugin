@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker stop newrelic-pivotal-plugin 
-docker rm newrelic-pivotal-plugin 
+docker stop newrelic-mongodb-plugin 
+docker rm newrelic-mongodb-plugin 

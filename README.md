@@ -1,5 +1,5 @@
 #Overview
-This project creates a Docker container that houses the [Newrelic MySQL Plugin](https://github.com/newrelic-platform/newrelic_mysql_java_plugin). 
+This project creates a Docker container that houses the [Newrelic MongoDB Plugin](https://github.com/MongoHQ/newrelic-mongodb-agent). 
 It provides a convenient distribution mechanism for the application and is intended to used in concert with the other 
 Docker containers that comprise the application monitoring simulation.
 
